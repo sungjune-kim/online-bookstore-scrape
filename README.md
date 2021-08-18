@@ -1,5 +1,4 @@
 # python-scrape
-<<<<<<< HEAD
 web scraping using Selenium
 
 =======
@@ -13,4 +12,4 @@ web scraping using Selenium
 
 ### Chromedriver Download
 link : https://sites.google.com/a/chromium.org/chromedriver/downloads
->>>>>>> 422224a4602a88f45071eeb5d389461a51ecdf10
+
