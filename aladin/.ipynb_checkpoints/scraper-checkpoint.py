@@ -7,9 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 from ConfigLoader import config_driver, config_searchbox
-
 
 class Scraper:
     def __init__(self):
@@ -21,7 +19,7 @@ class Scraper:
         driver = webdriver.Chrome(self.PATH)
         driver.get(self.URL)
         
-        search = driver.find_element_by_name("Searchword")
+        search = driver.find_element_by_name("SearchWord")
         search.send_keys(self.searchword)
         search.send_keys(Keys.RETURN)
         

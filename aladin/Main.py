@@ -9,3 +9,4 @@ if __name__ == '__main__':
     dblist = scraper.activate()
     
     bookdb = pd.DataFrame(dblist)
+    print(bookdb)
