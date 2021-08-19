@@ -1,0 +1,6 @@
+driver:
+    PATH : '/home/cvlab/chromedriver'
+    URL : "https://www.aladin.co.kr/home/welcome.aspx"
+
+searchbox:
+    searchword : "deep learning"
