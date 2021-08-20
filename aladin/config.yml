@@ -1,6 +1,6 @@
 driver:
-    #PATH : '/home/cvlab/chromedriver'
-    PATH : '/Users/sungjunekim/Downloads/chromedriver'
+    PATH : '/home/cvlab/chromedriver'
+    #PATH : '/Users/sungjunekim/Downloads/chromedriver'
     URL : "https://www.aladin.co.kr/home/welcome.aspx"
 
 searchbox:
